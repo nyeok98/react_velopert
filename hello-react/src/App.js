@@ -1,8 +1,8 @@
 import React from 'react';
-import EventPractice from './EventPractice';
+import IterationSample from './IterationSample';
 
-const App = () => {
-  return <EventPractice />
-};
+function App() {
+  return <IterationSample />
+}
 
 export default App;
