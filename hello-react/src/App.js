@@ -1,8 +1,8 @@
 import React from 'react';
-import IterationSample from './IterationSample';
+import Users from './Users';
 
 function App() {
-  return <IterationSample />
+  return <Users />
 }
 
 export default App;
