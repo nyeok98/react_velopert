@@ -12,7 +12,7 @@ export default function Average() {
     const [number, setNumber] = useState('');
     const inputEl = useRef(null);
 
-    const onClick = useCallback((e) => {
+    const onChange = useCallback((e) => {
         setNumber(e.target.value);
     }, []);
 
@@ -23,7 +23,7 @@ export default function Average() {
         inputEl.current.focus();
     }, [number, list]);
 
-    const avg = useMemo(() => getAverage(lsit), [list]);
+    const avg = useMemo(() => getAverage(list), [list]);
 
     return (
         <div>
@@ -35,7 +35,7 @@ export default function Average() {
                 ))}
             </ul>
             <div>
-                <b>평균갑:</b> {avg}
+                <b>평균값:</b> {avg}
             </div>
         </div>
     );
