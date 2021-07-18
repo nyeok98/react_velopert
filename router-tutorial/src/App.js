@@ -4,7 +4,7 @@ import About from './About';
 import Home from './Home';
 import Profiles from './Profiles';
 import HistorySample from './HistorySample';
-
+                                                                                                                                                                                                                                            
 const App = () => {
   return (
     <div>
